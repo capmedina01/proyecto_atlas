@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: url(/proyecto_atlas/assets/images/banner-bk.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.section1_header{
+    height: 25%;   
+}
+.navHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section2_header{
+    height: 75%;
+}
