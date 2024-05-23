@@ -6,26 +6,17 @@
 
 header{
     background: url(/proyecto_atlas/assets/images/banner-bk.jpg);
-    background-repeat: no-repeat;
-    height: 250px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
+    background-repeat: no-repeat;    
+    overflow: hidden;       
 }
 
-.section1_header{
-    height: 25%;   
-}
-.navHeader{
+.section1_header__navHeader{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 
-.section2_header{
-    height: 75%;
+.navHeader__logo{
+    height: 50px;
 }
+
