@@ -20,6 +20,10 @@ header{
 .navHeader__logo{
     height: 50px;
 }
+.navHeader__link{
+    color: white; 
+    text-decoration: none;
+}
 
 .section2_header{   
     padding: 5rem;
@@ -36,5 +40,40 @@ header{
     padding-top: 1rem;
     padding-bottom: 1rem;
     
+}
+.section2_header__div{
+    background-color: green;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2_header__link{
+    color: white;
+    text-decoration: none;
+    background-color: green;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.main_section1{
+    padding: 5%;
+}
+.main_section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_section2__article{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
 }
 
