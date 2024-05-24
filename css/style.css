@@ -7,7 +7,8 @@
 header{
     background: url(/proyecto_atlas/assets/images/banner-bk.jpg);
     background-repeat: no-repeat;    
-    overflow: hidden;       
+    overflow: hidden; 
+    color: white;      
 }
 
 .section1_header__navHeader{
@@ -18,5 +19,22 @@ header{
 
 .navHeader__logo{
     height: 50px;
+}
+
+.section2_header{   
+    padding: 5rem;
+}
+
+.section2_header__Title{
+    display: flex;
+    flex-direction: column;
+
+}
+.section2_header__paragraph{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
 }
 
