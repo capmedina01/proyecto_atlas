@@ -18,7 +18,7 @@ header{
 }
 
 .navHeader__logo{
-    height: 50px;
+    height: 30px;
 }
 .navHeader__link{
     color: white; 
@@ -59,7 +59,8 @@ header{
 main{
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center; 
+    justify-content: center;   
 }
 .main_section1{
     padding: 5%;
@@ -84,7 +85,14 @@ main{
 .main_section3{
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: center;    
+}
+.main_section3__article1{
+    padding: 5rem;
+}
+
+.main_section3__paragraph{
+    padding: 1rem;
 }
 
 .main_section3__article1__div{
@@ -100,20 +108,80 @@ main{
 .main_section3__article__img{
     height: 15rem;
 }
-div {
-    width: 120px;
-    height: 120px;
+
+.section5{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section6{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 25rem;
+}
+
+.section6__article{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.section6__article--midle{
+    background-color: rgb(25, 36, 64);
+    color: white;
+}
+
+.div_value{
+    display: flex; 
+    align-items: end;       
+}
+
+.div_value__p{
+    padding: 10%;
+    font-weight: bold;
+}
+
+.div_value__p--midle{
+    font-size: 50px;   
+}
+
+.article__btn{
+    width: 6rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.article__btn--midle{
+    background-color: rgb(0, 255, 173);
+}
+
+.section7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+    height: 10rem;
+    background-color: rgb(236, 238, 239);
+}
+
+.section7__img{
+    padding: 10px;
+}
+footer{
+    background: url(/assets/images/contact-bk.jpg);
+    background-repeat: no-repeat;    
+    overflow: hidden; 
+    color: white; 
 }
   
-  .striped {
-    background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);
-    position: absolute; /* Posiciona el div de forma absoluta */
-  top: 10px; /* Ajusta la posición superior según sea necesario */
-  left: 10px; /* Ajusta la posición izquierda según sea necesario */
-  z-index: -1;
-  }
-  .main_section3__article1{
-    position: relative; /* Asegura que estos elementos estén por encima del div */
-  z-index: 1; /* Asegura que estos elementos estén por encima del div */
-  margin: 20px; /* Añade algo de margen para una mejor visualización */
-  }
+  
+  
