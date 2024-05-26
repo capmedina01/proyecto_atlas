@@ -176,11 +176,49 @@ main{
 .section7__img{
     padding: 10px;
 }
+
+
 footer{
     background: url(/assets/images/contact-bk.jpg);
     background-repeat: no-repeat;    
     overflow: hidden; 
     color: white; 
+}
+
+/*  footer*/
+
+.section_contact {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.section_contact__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 200px;
+}
+
+.copy {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.icon-footer > a {
+    font-size: 1.5rem;
+    margin: 0.5rem;
 }
   
   
